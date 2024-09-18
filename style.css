@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main .container {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1em;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #d9534f;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
